@@ -1,3 +1,7 @@
+//ASSIGNMENT 1
+//NAME: GYEBI HUNSTPERGER
+//INDEX NUMBER: 2526403526
+
 
 //Setting Up Variables
 int startValue = 5;
