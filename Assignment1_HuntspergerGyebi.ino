@@ -7,9 +7,9 @@ int ledPin = 13;
 void flashLED(int times) {
   for(int i = 0; i < times; i++){
     digitalWrite(ledPin, HIGH); // LED ON
-    delay(300);
+    delay(150);
     digitalWrite(ledPin, LOW); // LED OFF
-    delay(300);
+    delay(150);
   }
 }
 
@@ -20,6 +20,7 @@ void setup(){
   
   Serial.begin(9600);//Serial Monitor Initialization
   
+  Serial.println("  ");
   Serial.println("=== Smart Countdown Starting ===");
   int count = startValue;
   while (count != 0){
